@@ -1,0 +1,144 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+
+    scroll-behavior: smooth;
+}
+
+body
+{
+   min-height: 100vh;
+    background: linear-gradient(#a7f8c9, #f7fce0);
+}
+
+header
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 30px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 1px 2px 0px;
+}
+
+header .logo
+{
+    color: #ffff;
+    font-weight: 700;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+header ul 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header ul li
+{
+    margin-left: 20px;
+    list-style: none;
+}
+
+header ul li a
+{
+    font-size: 20px;
+    text-decoration: none;
+    padding: 10px 15px;
+    color: #ffff;
+    border-radius: 15px;
+}
+
+header ul li a:hover
+{
+    color: black;
+    background: #fff;
+}   
+
+input[type=text] {
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: 8px;
+    margin-right: 16px;
+    font-size: 17px;
+  }
+
+  .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+   
+ .search-container button:hover {
+    background: #ccc;
+  }
+
+ .sec
+{
+    position: relative;
+    width: 100%;
+    margin-top: 2%;
+    padding: 100px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.column1{
+    width: 30%;
+    padding: 10px;
+    height: 600px; 
+    background-color: #f2effa;
+    margin-left: 90px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    box-shadow: 10px 5px #0f0f0f;
+    box-shadow: 10px 5px #f9a300;
+    overflow: hidden;   
+    display: block;  
+  }
+
+.meme-generator
+{
+    margin: 20px auto;
+    width: 100%;
+    font-family: sans-serif;
+}
+
+.meme-generator label
+{
+    display: block;
+    font-weight: bold;
+    margin-bottom: 10px;
+    /* margin-top: 1%; */
+}
+
+.meme-generator input 
+{
+    margin: 0;
+    width: 100%;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+#meme{
+    width: 100%;
+}
+
+ 

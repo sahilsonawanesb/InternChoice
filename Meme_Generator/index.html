@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online-MemeGenrator</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css" >
+</head>
+<body>
+
+    <header>
+        <a href="#" class="logo">Meme Generator</a>
+        <ul>
+            <li>
+                <div class="search-container">
+                    <input type="text" placeholder="Search Meme here.." name="search">
+                    <button type="submit"><i class="fa fa-search"></i></button>
+                  </div>
+            </li> 
+            <li><a href="#">SIGN-IN</a></li>
+            
+        </ul> 
+    </header>
+
+    <div class="sec">
+        <h1 id="text">Dynamic Meme Generator</h1>
+       
+    </div>
+
+          <!-- Main Section div -->
+    <div class="row">
+      <div class="column1"> 
+        <div class="meme-generator">
+            <label>Select an Image</label>
+            <input type="file" id="imageFileInput">
+
+            <label>Top Text</label>
+            <input type="text" id = "topTextInput">
+
+            <label>Bottom Text</label>
+            <input type="text" id = "bottomTextInput">
+            
+        </div>
+        
+
+        <div class="column">
+            <canvas id="meme"></canvas>
+        </div>
+     </div>
+
+         <!-- Preview Sections...  -->
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruits</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Logo</a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Work</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+
+    <section>
+        <img src="veg3.png" id="veg1" style=" margin-left: 65%; ">
+        <img src="veg2.png" id="veg2">
+        <img src="veg4.png" id="veg3" style="height: 200px; width: 200px; margin-left: 43%;">
+        <h2 id="text">It's time to move out Veg</h2>
+        <a href="#sec" id="btn">Explore</a>
+    </section>
+
+    <div class="sec" id="sec">
+
+        <h2>It's time to move Out to Veg</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, ea non architecto soluta sint rerum perspiciatis iure hic adipisci quis ducimus rem consequatur doloremque! Omnis dolorum ullam in iste est!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem repudiandae numquam praesentium eius minima, ad repellat accusantium commodi doloremque tempora at possimus voluptate, iste odio amet vitae id veritatis. Omnis?
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cum, porro in. Voluptas officia enim ullam odio vero, sunt reiciendis, suscipit, ducimus laudantium autem hic! Esse dolorum accusamus officiis unde repellat!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur itaque asperiores tempora molestias, ducimus veniam obcaecati, minima soluta molestiae cumque illum ab id magni deleniti odio rerum nam possimus vero.
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat sit deserunt cupiditate ullam. Voluptatum architecto impedit consectetur nisi animi, nesciunt officia fuga itaque maxime unde cum laboriosam illum ut vitae.
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facere dolor blanditiis veniam velit iure, delectus, adipisci doloremque nulla amet nobis facilis debitis dolores molestiae temporibus consectetur sequi nisi rerum voluptates.
+            <br><br>
+        
+        </p>
+
+    </div>
+
+    <section class="sec1" id="sec1">
+        <div>
+            <h2>Nutritional Benefits</h2>
+
+            <p id="text1">It's time to move out Veg
+                A diet rich in vegetables and fruits can lower blood pressure, 
+                reduce the risk of heart disease and stroke, 
+                prevent some types of cancer, 
+                lower risk of eye and digestive problems, 
+                and have a positive effect upon blood sugar, 
+                which can help keep appetite in check.
+            </p>
+
+        </div>
+
+        </section>
+
+        <section class="sec2" id="sec2">
+            <div>
+                <h2>Tips to eat more vegetables and fruits each day</h2>
+    
+                <p id="text1">It's time to move out Veg
+                    <ul>
+                        <li><h1>Keep fruit where you can see it</h1></li>
+                        <li><h3>Explore the produce aisle and choose something new.</h3></li>
+                        <li><h3>Skip the potatoes.</h3></a></li>
+                        <li><h3>Make it a meal.</h3></li></a></li>
+                    </ul>
+                </p>
+    
+            </div>
+    
+            </section>
+
+    
+
+    <script>
+        let vegs1 = document.getElementById('veg1');
+        let vegs2 = document.getElementById('veg2');
+        let vegs3 = document.getElementById('veg3');
+        let text = document.getElementById('text');
+        let text1 = document.getElementById('text1');
+        let btn = document.getElementById('btn');
+
+        window.addEventListener('scroll', function(){
+            let value = window.scrollY;
+            vegs1.style.top = value * 0.25  + 'px';
+            vegs2.style.top = value * 0.30   + 'px';
+            vegs3.style.top = value * 0.95 + 'px';
+
+            text.style.marginTop = value * 1.5 + 'px';
+            // text1.style.marginRight = value * 0.30 + 'px';
+            btn.style.Top = value * 1.5 + 'px';
+        })
+
+    </script>
+</body>
+</html>
